@@ -1,0 +1,33 @@
+{
+  "name": "pi-temperature-monitor",
+  "version": "0.1.0",
+  "bin": {
+    "pi-temperature-monitor": "bin/pi-temperature-monitor.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.90.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.90.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.5.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.9"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudwatch": "1.90.0",
+    "@aws-cdk/aws-cloudwatch-actions": "1.90.0",
+    "@aws-cdk/aws-logs": "1.90.0",
+    "@aws-cdk/aws-sns": "1.90.0",
+    "@aws-cdk/aws-sns-subscriptions": "1.90.0",
+    "@aws-cdk/aws-sqs": "1.90.0",
+    "@aws-cdk/core": "1.90.0",
+    "@aws-cdk/aws-lambda-event-sources": "1.90.0"
+  }
+}
